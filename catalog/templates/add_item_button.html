@@ -1,0 +1,14 @@
+{% if 'username' in session %}
+<!-- <a id="tt1" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--fab mdl-button--colored JustLearn-add-course_button" href="{{ url_for('create_item') }}">
+    <i class="material-icons">add</i>
+</a> -->
+
+
+ <a  id="add" class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect" href="{{ url_for('create_item') }}">
+                    <i class="material-icons">add</i>
+
+                </a>
+<div class="mdl-tooltip mdl-tooltip" for="add">
+    Add Course
+</div>
+{% endif %}

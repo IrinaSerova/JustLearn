@@ -1,0 +1,198 @@
+html {
+    color: rgba(66,66,66,.87);
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+textarea {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Make the title look like normal text while clickable. */
+.mdl-layout-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Don't let the content get too wide on large screens. */
+.mdl-grid {
+	max-width: 800px;
+}
+
+.mdl-card__media {
+	margin: 0;
+}
+
+.mdl-card__media > img {
+	max-width: 100%;
+}
+
+.mdl-card__supporting-text {
+    font-size: 15px;
+    color: rgba(0,0,0,.65);
+}
+
+/* Height of course preview cards on homepage and category pages. */
+.JustLearn-card_latest {
+    height: 255px;
+}
+
+.JustLearn-card_item {
+    background-color: #fff;
+
+}
+
+/* For a full course card, display all of the image, but don't let it
+get too big that it takes over the screen. */
+.JustLearn-card_item img {
+    width: 800px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+
+/* For small course cards, display a cover of the image.
+This means that whatever the image ratio is, the card will
+always be the same size. */
+.JustLearn-card_image {
+    height: 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+}
+
+/* Center text saying there is no image */
+.JustLearn-card_no_image {
+    text-align: center;
+    color: white;
+    line-height: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+/* Style card for Google login card */
+.JustLearn-card-login-g > .mdl-card__title {
+    background: #EF5350;
+
+}
+
+/* Style card for Facebook login card*/
+.JustLearn-card-login-fb > .mdl-card__title {
+    background: #0D47A1;
+
+}
+
+.JustLearn-card-login > .mdl-card__title {
+    align-items: flex-start;
+    color: #fff;
+}
+
+.JustLearn-card-login > .mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+}
+
+/* Add course button fixed in bottom-left of the screen. */
+.JustLearn-add-course_button {
+    /*position: fixed;*/
+    /*display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;*/
+}
+
+/* Flash feedback message styling */
+.flash_msg {
+    color: #fff;
+    background-color: #2196f3;
+}
+
+/* Put a bit of space between action button and the cancel button. */
+.JustLearn-cancel-button {
+    margin-left: 15px;
+}
+
+.JustLearn-form {
+    background-color: #fff;
+    padding: 15px;
+}
+
+/* On edit page, display current image */
+.JustLearn-edit-image {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.JustLearn-edit-image img {
+    max-width: 100%;
+}
+
+/* Set text to white on a red background. */
+.JustLearn-delete-button {
+    color: rgba(255, 255, 255, 0.97);
+}
+
+.JustLearn-login-logout-button {
+    margin-left: 10px;
+}
+
+/* Make profile picture round */
+.JustLearn-profile-picture {
+    border-radius: 50%;
+}
+
+/* Adjust drawer layout slightly */
+.mdl-layout__drawer > .mdl-layout-title {
+    line-height: 40px;
+}
+
+.mdl-layout__drawer .mdl-navigation {
+    padding-top: 2px;
+    padding-bottom: 16px;
+}
+
+#form-control {
+  background-image: url('');
+}
+
+
+
+
+#fa_icons_JustLearn {
+    
+    color: #ffab40;
+
+}
+#title_Cat_JustLearn {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.demo-card-wide.mdl-card {
+  width: auto;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url("../images/bg.png") repeat;
+}
+
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+

@@ -1,0 +1,87 @@
+{% extends "layout.html" %}
+{% block title %}New Course{% endblock %}
+{% block content %}
+    <h1>Add New Course</h1>
+    <div class="mdl-grid JustLearn-form mdl-shadow--2dp">
+        <form action="{{ url_for('create_item') }}" method="post" enctype="multipart/form-data">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" name="name" id="name" />
+                <label class="mdl-textfield__label" for="name">Course name</label>
+            </div>
+            <br>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <textarea class="mdl-textfield__input" name="description" rows="3" cols="30" id="description"></textarea>
+                <label class="mdl-textfield__label" for="description">Description</label>
+            </div>
+            <br>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" name="link" id="link" />
+                <label class="mdl-textfield__label" for="link">Link</label>
+            </div>
+            <br>
+           
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" name="level" id="level">
+                <option value="BEGINNER">Beginner</option>
+                <option value="INTERMEDIATE">Intermediate</option>
+                <option value="ADVANCED">Advanced</option>
+                </select>
+                <label class="mdl-textfield__label" for="level">Level</label>
+                <br>
+            </div>
+            <br>
+             <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" name="duration" id="duration">
+                <option value="to 1 hour">to 1 hour</option>
+                <option value="1 to 2 hours">1 to 2 hours</option>
+                <option value="2 to 4 hours">2 to 4 hours</option>
+                <option value="4 to 8 hours">4 to 8 hours</option>
+                <option value="8 to 16 hours">8 to 16 hours</option>
+                <option value="16 to 32 hours">16 to 32 hours</option>
+                <option value="32 to 64 hours">32 to 64 hours</option>
+                <option value="more than 64 hours">more than 64 hours</option>
+                </select>
+                <label class="mdl-textfield__label" for="duration">Duration</label>
+                <br>
+            </div>
+            <br>
+            <!--  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" name="level" id="level">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+                </select>
+                <label class="mdl-textfield__label" for="level">Level</label>
+                <br>
+            </div>
+            <br> -->
+
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <select class="mdl-textfield__input" name="category" id="category">
+                    {% for category in categories %}
+                        {% if category.name == ref_category %}
+                        <option value="{{ category.name }}" selected>{{ category.name }}</option>
+                        {% else %}
+                        <option value="{{ category.name }}">{{ category.name }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+                <label class="mdl-textfield__label" for="category">Category</label>
+                <br>
+            </div>
+            <br>
+
+            <h6>Upload an image of the Course <em>(optional)</em></h6>
+            <p>Select an image file <em>(jpg, png, gif, 4 MB max size)</em>: <br><input type="file" name="file"></p>
+            <p>Or supply a link to an image on the web <em>(an upload will be used if supplied)</em></p>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" name="image_url" id="image_url" />
+                <label class="mdl-textfield__label" for="image_url">Full image URL</label>
+            </div>
+            <br>
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+            <input class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" value="Create">
+            <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--grey-300 JustLearn-cancel-button" href="{{ url_for('show_homepage') }}">Cancel</a>
+        </form>
+    </div>
+{% endblock %}
