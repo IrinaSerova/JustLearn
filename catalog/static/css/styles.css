@@ -3,14 +3,17 @@ html {
 }
 
 html, body {
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 
 textarea {
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Rubik', sans-serif;
+
 }
 
 /* Make the title look like normal text while clickable. */
