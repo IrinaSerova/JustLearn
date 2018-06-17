@@ -20,12 +20,15 @@ The project code requires the following software:
     * flask-seasurf (a CSRF defence)
 
 
-## Usage
+## Set Up
+
 
 Download the project zip file to you computer and unzip the file. Or clone this repository to your desktop.
 
 
-### Bringing the VM up
+## Usage
+
+Bringing the VM up
 
 Launch the Vagrant VM from inside the vagrant folder with the following command:
 
