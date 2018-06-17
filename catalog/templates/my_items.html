@@ -30,7 +30,7 @@
                     <div class="mdl-card__subtitle-text"><em>({{ category.name }})</em></div>
                 </div>
                 <div class="mdl-card__supporting-text">
-                    Zoo population: {{ item.duration }}
+                    Duration: {{ item.duration }}
                 </div>
                 <div class="mdl-card__actions mdl-card--border">
                     <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{ url_for('show_item', category_name=category.name, item_name=item.name) }}">
