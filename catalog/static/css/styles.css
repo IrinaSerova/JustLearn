@@ -195,10 +195,17 @@ h1 {
 }
 
 #result {
-    color: #ff3300;
+    color: #ffab40;
+    margin: 0 auto;
 }
-/*#result img{
-    height: 10px !important;
-}*/
+#result img{
+    height: 10em !important;
+    width: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+#result h1{
+    font-weight: 400i;
+}
 
 
