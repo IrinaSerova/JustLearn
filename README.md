@@ -30,23 +30,28 @@ Download the project zip file to you computer and unzip the file. Or clone this 
 Launch the Vagrant VM from inside the vagrant folder with the following command:
 
 
-```vagrant up
+```bash
+vagrant up
 ```
 log into the VM with the following command:
 
-```vagrant ssh
+```bash
+vagrant ssh
 ```
 
 move inside the catalog folder:
 
-```cd /vagrant/catalog
+```bash
+cd /vagrant/catalog
 ```
 Then run the application:
 
-```python application.py
+```bash
+python application.py
 ```
 
 Now you are able to browse the application at this URL:
 
-```http://localhost:8000/
+```bash
+http://localhost:8000/
 ```
