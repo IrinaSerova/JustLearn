@@ -25,8 +25,18 @@ The project code requires the following software:
 
 Download the project zip file to you computer and unzip the file. Or clone this repository to your desktop.
 
+### OAuth setup
+In order to log in to the web app, you will need to get either a Google+ or Facebook OAuth app ID and secret key. 
 
-## Usage
+For Google, go to the
+[Google Developers Console](https://console.developers.google.com/) and for Facebook,
+go to [Facebook Login](https://developers.facebook.com/products/login).
+
+Once you have your credentials, put the IDs and secrets in the `fb_client_secrets.json`
+file for Facebook and `g_client_secrets.json` for Google.
+
+
+### Usage
 
 Bringing the VM up
 
