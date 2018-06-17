@@ -18,3 +18,38 @@ The project code requires the following software:
     * requests
     * httplib2
     * flask-seasurf (a CSRF defence)
+
+
+## Usage
+
+Download the project zip file to you computer and unzip the file. Or clone this repository to your desktop.
+
+
+### Bringing the VM up
+
+Launch the Vagrant VM from inside the vagrant folder with the following command:
+
+
+```bash
+vagrant up
+```
+log into the VM with the following command:
+
+cbash
+vagrant ssh
+```
+
+move inside the catalog folder:
+
+```
+cd /vagrant/catalog
+```
+Then run the application:
+
+```
+python application.py
+```
+
+Now you are able to browse the application at this URL:
+
+http://localhost:8000/
