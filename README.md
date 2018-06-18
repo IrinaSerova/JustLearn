@@ -68,3 +68,11 @@ Now you are able to browse the application at this URL:
 ```bash
 http://localhost:8000/
 ```
+ Screenshots
+-----
+
+
+<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen1.png"></a>
+<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen2.png"></a>
+<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen3.png"></a>
+<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png"></a>
