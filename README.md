@@ -75,4 +75,4 @@ http://localhost:8000/
 <a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen1.png"></a>
 <a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen2.png"></a>
 <a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen3.png"></a>
-<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png"></a>
+<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" width="90"></a>
