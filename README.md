@@ -72,13 +72,13 @@ http://localhost:8000/
 -----
 
 
-<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen1.png"></a>
+<img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen1.png">
 
-<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen2.png"></a>
+<img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen2.png">
 -----
-<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen3.png"></a>
+<img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen3.png">
 -----
-<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" margin="auto"  width="80%"></a>
+<img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" margin="auto"  width="80%">
 <p align="center">
-  <a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" width="80%"></a>
+  <img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" width="80%"></a>
 </p>
