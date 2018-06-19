@@ -77,6 +77,7 @@ http://localhost:8000/
 <img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen2.png">
 -----
 <img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen3.png">
+
 -----
 
 <p align="center">
