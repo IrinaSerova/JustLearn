@@ -78,4 +78,4 @@ http://localhost:8000/
 -----
 <a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen3.png"></a>
 -----
-<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" margin: "0 auto"  width="80%"></a>
+<a href="url"><img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" margin="auto"  width="80%"></a>
