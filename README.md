@@ -80,5 +80,5 @@ http://localhost:8000/
 -----
 <img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" margin="auto"  width="80%">
 <p align="center">
-  <img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" width="80%"></a>
+  <img src="https://github.com/IrinaSerova/JustLearn/blob/master/catalog/static/images/Screen4.png" width="80%">
 </p>
